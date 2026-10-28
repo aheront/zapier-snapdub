@@ -1,0 +1,24 @@
+{
+  "name": "zapier-snapdub",
+  "version": "1.0.0",
+  "description": "SnapDub is a video clipper that turns long videos into captioned vertical clips and posts them to social platforms.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "SnapDub <hello@snapdub.ai>",
+  "homepage": "https://snapdub.ai/developers",
+  "scripts": {
+    "test": "jest --testTimeout 10000"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "zapier-platform-core": "19.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nock": "^14.0.17",
+    "zapier-platform-cli": "19.2.1"
+  },
+  "private": true
+}
